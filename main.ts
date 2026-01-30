@@ -1,0 +1,6 @@
+player.onChat("run", function () {
+    for (let index = 0; index < 4; index++) {
+        mobs.spawn(CHICKEN, pos(10, 0, 10))
+        mobs.spawn(CHICKEN, pos(0, 0, 0))
+    }
+})
